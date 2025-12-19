@@ -1,1 +1,325 @@
-<meta name="google-site-verification" content="O0vCMtLjI9fqOt37ErFspoS7wmsP9I-vQliAyVgAsjY" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Qubrid AI - Full Stack AI Platform</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Qubrid AI is a full-stack AI platform for inference, fine-tuning, RAG, and deploying open-source models on cloud and edge GPUs."/>
+  <meta name="keywords" content="Qubrid AI, AI inference, GPU cloud, LLM, image generation, speech to text, edge AI"/>
+  <meta name="google-site-verification" content="O0vCMtLjI9fqOt37ErFspoS7wmsP9I-vQliAyVgAsjY" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #05050a;
+      --card: #0b0b1c;
+      --text: #e6e6f0;
+      --muted: #9aa0b4;
+      --primary: #9d6bff;
+      --secondary: #6f4cff;
+      --border: rgba(255,255,255,0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: radial-gradient(1200px 500px at 50% -10%, rgba(157,107,255,0.15), transparent 60%), var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Layout */
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Header */
+    header {
+      padding: 80px 0 60px;
+      text-align: center;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: rgba(157,107,255,0.12);
+      border: 1px solid rgba(157,107,255,0.35);
+      color: var(--primary);
+      font-size: 13px;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: clamp(32px, 5vw, 56px);
+      font-weight: 800;
+      margin: 0 0 14px;
+      letter-spacing: -0.02em;
+    }
+
+    .subtitle {
+      max-width: 760px;
+      margin: 0 auto 28px;
+      color: var(--muted);
+      font-size: 18px;
+    }
+
+    .cta {
+      display: inline-flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .btn {
+      padding: 14px 22px;
+      border-radius: 12px;
+      font-weight: 600;
+      border: 1px solid transparent;
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: #fff;
+    }
+
+    .btn.secondary {
+      background: transparent;
+      border-color: var(--border);
+      color: var(--text);
+    }
+
+    /* Hero Image */
+    .hero-image {
+      margin-top: 50px;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      box-shadow: 0 0 40px rgba(157,107,255,0.25);
+      max-width: 100%;
+    }
+
+    /* Sections */
+    section {
+      padding: 70px 0;
+      border-top: 1px solid var(--border);
+    }
+
+    h2 {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 18px;
+    }
+
+    .section-desc {
+      color: var(--muted);
+      max-width: 700px;
+      margin-bottom: 36px;
+    }
+
+    /* Cards */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0));
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 22px;
+    }
+
+    .card h3 {
+      margin-top: 0;
+      font-size: 18px;
+    }
+
+    .card p {
+      margin-bottom: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    /* Footer */
+    footer {
+      padding: 50px 0;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    footer a {
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero -->
+  <header class="container">
+    <br><br>
+    <span class="badge">⚡ Your Models · Your AI · Our Platform</span>
+    <h1>The Full Stack AI Platform</h1>
+    <p class="subtitle">
+      One platform for compute, inference, fine-tuning, and RAG on open-source models -
+      built for developers, researchers, and AI teams.
+    </p>
+
+    <div class="cta">
+      <a href="https://platform.qubrid.com" class="btn">Get Started Free</a>
+      <a href="https://docs.platform.qubrid.com" class="btn secondary">Read Docs</a>
+    </div>
+
+    <img
+      class="hero-image"
+      src="https://ai-platform-images.s3.us-east-1.amazonaws.com/AI-Image/The+Full+AI+Stack+-+Qubrid+AI.png"
+      alt="Qubrid AI Platform"
+    />
+  </header>
+
+  <!-- What You Can Do -->
+  <section>
+    <div class="container">
+      <h2>🧠 What You Can Do on Qubrid</h2>
+      <p class="section-desc">
+        From experimentation to production - Qubrid removes infrastructure friction so you can focus on building AI.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>⚡ High-Performance Inference</h3>
+          <p>Text, Vision, Image, Speech & Multimodal models optimized for speed.</p>
+        </div>
+        <div class="card">
+          <h3>🛠️ Instant Playground</h3>
+          <p>Test models directly in the browser with zero setup.</p>
+        </div>
+        <div class="card">
+          <h3>🔑 Simple APIs</h3>
+          <p>Drop-in APIs designed for production workloads.</p>
+        </div>
+        <div class="card">
+          <h3>☁️ Cloud & Edge</h3>
+          <p>Deploy models where your users are - cloud or edge.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- Cookbooks -->
+  <section>
+    <div class="container">
+      <h2>📚 Qubrid Cookbooks</h2>
+      <p class="section-desc">
+        Practical, end-to-end examples showing how to build real AI applications on Qubrid.
+        Each cookbook is designed to be copy-paste friendly and production-ready.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>🧠 Reasoning Chatbot (LLMs)</h3>
+          <p>
+            Build a reasoning-enabled chatbot using open-source LLMs on Qubrid -
+            covering inference, prompts, and deployment patterns.
+          </p>
+          <p style="margin-top:12px;">
+            <a href="https://github.com/QubridAI-Inc/qubrid-cookbook/tree/main/LLMs/reasoning_chatbot">
+              View Cookbook →
+            </a>
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>🚀 More Coming Soon</h3>
+          <p>
+            We’re actively adding cookbooks for RAG, vision models, speech, multimodal pipelines,
+            and production inference workflows.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bring Your Own Model -->
+  <section>
+    <div class="container">
+      <h2>🤗 Bring Your Own Model</h2>
+      <p class="section-desc">
+        Deploy Hugging Face models or your own custom models on Qubrid without changing your workflow.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Open-Source Friendly</h3>
+          <p>Run popular and custom open models with full control.</p>
+        </div>
+        <div class="card">
+          <h3>Auto-Scaling</h3>
+          <p>Scale seamlessly as demand grows.</p>
+        </div>
+        <div class="card">
+          <h3>Unified Metrics</h3>
+          <p>Monitor usage, latency, and performance from one dashboard.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Get Started -->
+  <section>
+    <div class="container">
+      <h2>🧪 Get Started in Minutes</h2>
+
+      <div class="grid">
+        <div class="card">
+          <h3>▶️ Playground</h3>
+          <p><a href="https://platform.qubrid.com/playground">platform.qubrid.com/playground</a></p>
+        </div>
+        <div class="card">
+          <h3>🔑 API Access</h3>
+          <p>Generate keys and integrate instantly.</p>
+        </div>
+        <div class="card">
+          <h3>💳 Free Credits</h3>
+          <p>$1 free credit (~4M tokens) to start risk-free.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>
+        <strong>Qubrid AI</strong> - Open, fast, production-ready AI infrastructure
+      </p>
+      <p>
+        <a href="https://www.qubrid.com">Website</a> ·
+        <a href="https://www.qubrid.com/blog-news">Blog</a> ·
+        <a href="https://docs.platform.qubrid.com">Docs</a> ·
+        <a href="https://discord.com/invite/Btsqxa6ZnQ">Discord</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
+
